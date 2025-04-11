@@ -29,9 +29,9 @@ public class GameState : ScriptableObject
         OnIncreaseScore?.Invoke(Score);
     }
 
-    public void LoadScene(string AsteroidsGame)
+    public void LoadScene(string ARGameCOVID)
     {
-        SceneManager.LoadScene(AsteroidsGame);
+        SceneManager.LoadScene(ARGameCOVID);
     }
 
 }
